@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Sampack.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "compress c:\\temp\\please-calm-my-mind.wav c:\\temp\\please-calm-my-mind.sampack"
+    }
+  }
+}

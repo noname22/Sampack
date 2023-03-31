@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReflectiveArguments" Version="1.0.0-alpha07" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sampack.Compression\Sampack.Compression.csproj" />
+    <ProjectReference Include="..\Sampack.SampleGuesser.GuessLastSample\Sampack.SampleGuesser.GuessLastSample.csproj" />
+  </ItemGroup>
+
+</Project>
